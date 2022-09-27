@@ -1,0 +1,11 @@
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\bin\Debug\farmatown.exe.config
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\bin\Debug\farmatown.exe
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\bin\Debug\farmatown.pdb
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.csproj.AssemblyReference.cache
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.FrmLogin.resources
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.Forms.FrmPrincipal.resources
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.Properties.Resources.resources
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.csproj.GenerateResource.cache
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.exe
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.pdb
