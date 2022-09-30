@@ -11,7 +11,7 @@ namespace farmatown.Modelos
 		public Articulo Articulo { get; set; }
 		public int Cantidad { get; set; }
         public int Descuento { get; set; }
-        public double MontoDescontado { get; set; }
+
         public DetalleFactura(Articulo articulo, int cantidad, int descuento)
 		{
 			Articulo = articulo;
@@ -23,12 +23,10 @@ namespace farmatown.Modelos
         {
 			if (Descuento > 0)
 			{
-				MontoDescontado = ((Articulo.preUnitario * Cantidad) * Descuento) / 100;
-				return MontoDescontado;
+				return ((Articulo.preUnitario * Cantidad) * Descuento) / 100;
 			} else
             {
-				MontoDescontado = 0;
-				return MontoDescontado;
+				return 0;
 			}
 
 		}

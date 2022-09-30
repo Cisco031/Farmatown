@@ -12,17 +12,25 @@ namespace farmatown.Modelos
 		public int IdUsuario { get; set; }
 		public int DniCliente { get; set; }
 		public DateTime Fecha { get; set; }
-		public double Descuento { get; set; }
 		public double Total { get; set; }
         public bool ObraSocial { get; set; }
         public List<DetalleFactura> Detalles { get; set; }
-		public Factura(bool obraSocial)
+
+		public Factura()
 		{
-			ObraSocial = obraSocial;
 			Detalles = new List<DetalleFactura>();
 		}
 
-		public void AgregarDetalle(DetalleFactura detalle)
+        public Factura(int idUsuario, int dniCliente,  double total, bool obraSocial, List<DetalleFactura> detalles)
+        {
+            IdUsuario = idUsuario;
+            DniCliente = dniCliente;
+            Total = total;
+            ObraSocial = obraSocial;
+            Detalles = detalles;
+        }
+
+        public void AgregarDetalle(DetalleFactura detalle)
 		{
 			Detalles.Add(detalle);
 		}
@@ -30,6 +38,13 @@ namespace farmatown.Modelos
 		public void QuitarDetalle(int indice)
 		{
 			Detalles.RemoveAt(indice);
+		}
+
+		public void LimpiarDetalles()
+        {
+
+				Detalles.Clear() ;
+
 		}
 
 		public double CalcularTotal()
@@ -41,5 +56,26 @@ namespace farmatown.Modelos
 			}
 			return total;
 		}
-	}
+
+		public double CalcularTotalDescontado()
+        {
+			double total = 0;
+			foreach (DetalleFactura detalle in Detalles)
+			{
+				total += detalle.CalcularMontoDescontado();
+			}
+			return total;
+		}
+
+        public int TieneObraSocial()
+        {
+            if (ObraSocial)
+            {
+				return 1;
+            } else
+            {
+				return 0;
+			}
+        }
+    }
 }

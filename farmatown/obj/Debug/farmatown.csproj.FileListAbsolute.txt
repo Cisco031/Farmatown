@@ -9,3 +9,24 @@ C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.csp
 C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.csproj.CoreCompileInputs.cache
 C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.exe
 C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.pdb
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\bin\Debug\farmatown.exe.config
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\bin\Debug\farmatown.exe
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\bin\Debug\farmatown.pdb
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.csproj.AssemblyReference.cache
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.FrmLogin.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmPrincipal.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Properties.Resources.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.csproj.GenerateResource.cache
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.exe
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.pdb
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmNuevaFactura.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmArticulos.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmClientes.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmDetalles.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmFacturas.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmLotes.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoLote.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoUsuario.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmModificarCliente.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmModificarArticulo.resources

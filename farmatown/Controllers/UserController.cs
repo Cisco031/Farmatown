@@ -31,6 +31,8 @@ namespace farmatown.Controllers
                 Conn.Open();
         }
 
+        
+
         public void CloseConn()
         {
             if (Conn.State.Equals(ConnectionState.Open))
@@ -43,6 +45,8 @@ namespace farmatown.Controllers
             Command.CommandType = type;
             Command.CommandText = CommandText;
         }
+
+        
 
         //METODOS DEL CONTROLADOR DE USUARIOS
         public bool VerificarUsuario(string usu,string pwr)
@@ -116,5 +120,58 @@ namespace farmatown.Controllers
             }          
         }
 
+        internal DataTable obtenerTiposUsuarioComboBox()
+        {
+            DataTable table = new DataTable();
+            Command.Parameters.Clear();
+            OpenConn();
+
+            SetCommand(CommandType.StoredProcedure, "SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX");
+            table.Load(Command.ExecuteReader());
+            CloseConn();
+
+            return table;
+        }
+
+        internal DataTable ObtenerUsuariosGrilla()
+        {
+            DataTable table = new DataTable();
+            Command.Parameters.Clear();
+            OpenConn();
+
+            SetCommand(CommandType.StoredProcedure, "SP_CONSULTAR_USUARIOS_GRILLA");
+            table.Load(Command.ExecuteReader());
+            CloseConn();
+
+            return table;
+        }
+
+        public void EliminarUsuario(int idUsuario)
+        {
+            OpenConn();
+            //asegurase de mantener limpios los parametros
+            Command.Parameters.Clear();
+            //creo el comando 
+            SetCommand(CommandType.StoredProcedure, "SP_ELIMINAR_USUARIO");
+            Command.Parameters.AddWithValue("@idUsuario", idUsuario);
+            Command.ExecuteNonQuery();
+            CloseConn();
+        }
+
+        public void CrearUsuario(Usuario usuario)
+        {
+            Command.Parameters.Clear();
+
+            SetCommand(CommandType.StoredProcedure, "SP_CREAR_USUARIO");
+            Command.Parameters.AddWithValue("@nombreReal", usuario.NomUsuario);
+            Command.Parameters.AddWithValue("@apellido", usuario.ApeUsuario);
+            Command.Parameters.AddWithValue("@username", usuario.User);
+            Command.Parameters.AddWithValue("@password", usuario.Password);
+            Command.Parameters.AddWithValue("@tipoUsuario", usuario.TipoUsuario);
+            OpenConn();
+            Command.ExecuteNonQuery();
+
+            CloseConn();
+        }
     }
 }

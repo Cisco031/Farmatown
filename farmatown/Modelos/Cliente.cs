@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace farmatown.Modelos
 {
-    class Cliente
+    public class Cliente
     {
         public Cliente(int dni,int telefono, string nombre, string apellido)
         {
